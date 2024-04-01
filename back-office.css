@@ -1,0 +1,90 @@
+
+header
+{
+  height:22vh;
+}
+
+main
+{
+  display:flex;
+  height:72vh;
+}
+main nav
+{
+  display:flex;
+  flex-direction:column;
+  width: 18.2%;
+  border-right:solid black 2px;
+  align-items: center;
+}
+
+.btn-navbar
+{
+  background-color:#dad4c4;
+  width:195px;
+  margin-bottom:10px;
+  font-weight:bold;
+  border-radius:5%;
+}
+.btn-navbar:hover
+{
+  background-color:#dad4c4;
+  border:solid 1px black;
+}
+.btn-active
+{
+  width:195px;
+  margin-bottom:10px;
+  font-weight:bold;
+  border-radius:5%;
+  color:white;
+  background-color: black;
+}
+
+.btn-active:hover
+{
+  background-color:black;
+  color:white;
+  border:solid 1px black;
+}
+
+#content-left
+{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  width:30%;
+  border-right:solid black 2px;
+}
+
+
+
+.btn-blue-advice
+{
+  background-color:#004d80;
+  color:white;
+  width: 280px;
+  height: 45px;
+  margin-bottom:15px;
+}
+
+.div-form
+{
+  width: 280px;
+  display:flex;
+  flex-direction:column;
+  align-items: end;
+  margin-bottom:20px;
+}
+
+
+.input-tooltip
+{
+  text-align:right;
+  font-size:10px;
+}
+#content-right
+{
+
+  width:30%;
+}
