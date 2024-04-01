@@ -83,8 +83,31 @@ main nav
   text-align:right;
   font-size:10px;
 }
+
+.btn-submit
+{
+background-color:black;
+color:white;
+height:40px;
+width:100px;
+}
+
 #content-right
 {
-
+  display:flex;
+  flex-direction:column;
+  align-items:center;
   width:30%;
+
+}
+
+#btn-row
+{
+  display:flex;
+}
+
+#btn-row .btn-submit
+{
+  margin-right:15px;
+  width:160px;
 }
